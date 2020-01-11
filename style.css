@@ -144,6 +144,11 @@ h2 {
   flex-direction: row-reverse;
 }
 
+#demo2 img {
+  height: 700px;
+  width: 700px;
+}
+
 .demo-text {
   flex-direction: column;
   text-align: center;
@@ -171,6 +176,7 @@ h2 {
 
 .headshot {
   width: 50%;
+  height: 200px;
   /* border-radius: 50%; */
 }
 
@@ -196,6 +202,24 @@ h2 {
   margin: 20px;
   color: #222222;
   font-weight: 700
+}
+
+#learn-more {
+  background-color: #c9b6e4;
+  border: 1px solid #1D127C;
+  border-radius: 4px;
+  margin-top: 150px;
+  padding: 5px;
+  height: 40px;
+  width: 120px;
+  
+}
+
+#learn-more a {
+  display: block;
+  font-size: 16px;
+  text-decoration: none;
+  color: #1D127C;
 }
 
 /* ------------------------MOBILE ---------------------------------*/
